@@ -1,0 +1,11 @@
+*.png
+*.rar
+*.exe
+
+*.aux
+*.log
+*.gz
+*.tex
+
+hw/
+

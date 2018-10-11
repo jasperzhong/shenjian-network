@@ -1,11 +1,22 @@
+# 无关的文件
 *.png
 *.rar
 *.exe
+*.tar.bz2
 
+# latex 
 *.aux
 *.log
 *.gz
 *.tex
+*.out
 
+# 链接库
+*.so
+*.a
+
+
+
+# 作业pdf不放上去
 hw/
 

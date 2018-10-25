@@ -1,0 +1,12 @@
+[Unit]
+Description=1652817-zyc
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/test
+ExecStop=ps -ef|grep test|grep -v grep|cut -c 9-15|xargs kill -9
+ExecReload=ps -ef|grep test|grep -v grep|cut -c 9-15|xargs kill -9\
+/usr/sbin/test
+
+[Install]
+WantedBy=multi-user.target
